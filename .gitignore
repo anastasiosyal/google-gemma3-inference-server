@@ -1,0 +1,79 @@
+# Environment variables
+.env
+
+# Hugging Face cache
+hf_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+log/
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Docker
+.docker/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development
+*.db
+*.sqlite3
+local_settings.py
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+model_weights/
+
+# Temporary files
+tmp/
+temp/

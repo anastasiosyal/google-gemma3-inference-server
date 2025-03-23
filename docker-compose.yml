@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  gemma3-server:
+    build: .
+    image: gemma3-server
+    ports:
+      - "8100:8100"
+    environment:
+      - HF_TOKEN=${HF_TOKEN}
+      - MODEL_ID=${MODEL_ID:-google/gemma-3-12b-it}
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./hf_cache:/app/hf_cache
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    restart: unless-stopped
+
+volumes:
+  hf_cache:
+    name: gemma3-hf-cache
