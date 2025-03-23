@@ -11,7 +11,6 @@ Tested on AWS on G6 instance
 - **GPU Support**: Utilizes NVIDIA GPUs with automatic model distribution across available devices
 - **Persistent Caching**: Stores model weights in a Docker volume to avoid repeated downloads
 - **Advanced Generation Parameters**: Supports fine-tuned control over generation with parameters like temperature, top_p, top_k, min_p, and repetition penalty
-- **Robust Error Handling**: Comprehensive logging and error reporting system
 - **Health Monitoring**: Built-in health check endpoint
 
 ## Prerequisites
