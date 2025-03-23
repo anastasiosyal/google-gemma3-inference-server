@@ -31,8 +31,8 @@ Follow these steps to build and run the self-hosted endpoint.
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/anastasiosyal/google-gemma3-inference-server.git
+cd google-gemma3-inference-server
 ```
 
 ### 2. Configure Environment
