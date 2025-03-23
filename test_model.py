@@ -41,6 +41,6 @@ with torch.inference_mode():
 decoded = processor.decode(generation, skip_special_tokens=True)
 print(decoded)
 
-# Okay, let's take a look! 
-# Based on the image, the animal on the candy is a **turtle**. 
-# You can see the shell shape and the head and legs.
+# **Overall Impression:** The image is a close-up shot of a vibrant garden scene, 
+# focusing on a cluster of pink cosmos flowers and a busy bumblebee. 
+# It has a slightly soft, natural feel, likely captured in daylight.
